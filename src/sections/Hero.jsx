@@ -86,7 +86,7 @@ export const Hero = () => {
                  Contact Me <ArrowRight className="w-5 h-5" />
                 </Button>
               </a>
-              <a href="/path/to/your-cv.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <AnimatedBorderButton>
                   <Download className="w-5 h-5" />
                   Download CV
@@ -100,7 +100,6 @@ export const Hero = () => {
               {[
                 { icon: Github, href: "https://github.com/RhythmusByte" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/rhythmusbyte" },
-                // { icon: Instagram, href: "https://www.instagram.com/rhythmusbyte" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -125,7 +124,7 @@ export const Hero = () => {
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/profile-photo.jpg"
-                  alt="Akhil Mahesh"
+                  alt="Pedro Machado"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
@@ -140,7 +139,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">2+</div>
+                  <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>
