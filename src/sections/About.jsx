@@ -3,26 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Data Analysis",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Transforming raw data into actionable insights using Python, SQL, and modern analytics tools.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Machine Learning",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Building and optimizing predictive models to solve real-world problems efficiently.",
   },
   {
     icon: Users,
     title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    description:
+      "Working closely with teams to integrate data-driven solutions into impactful projects.",
   },
   {
     icon: Lightbulb,
     title: "Innovation",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Exploring cutting-edge AI techniques and staying ahead with emerging technologies.",
   },
 ];
 
@@ -40,44 +41,43 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Transforming data into impact,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                one insight at a time.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm Akhil Mahesh — a passionate data scientist and AI enthusiast
+                dedicated to making sense of complex data and turning it into
+                actionable solutions. I thrive on solving real-world problems
+                with analytical rigor and creativity.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                My toolkit includes Python, machine learning frameworks,
+                and visualization libraries. I focus on building scalable,
+                efficient, and interpretable models that drive impact across
+                businesses and projects.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Beyond coding, I enjoy exploring new AI research, contributing
+                to open-source projects, and sharing knowledge with the
+                data science community.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to leverage data and AI to create meaningful
+                solutions — insights that empower decisions and drive
+                innovation."
               </p>
             </div>
           </div>
 
-          {/* Right Column - Hilights */}
+          {/* Right Column - Highlights */}
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, idx) => (
               <div
@@ -89,9 +89,7 @@ export const About = () => {
                   <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {item.description}
-                </p>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </div>
             ))}
           </div>
