@@ -123,7 +123,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="https://res.cloudinary.com/rhythmusbyte/image/upload/v1772490576/IMG_20260303_035747_cocem3.png"
                   alt="Akhil Mahesh"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
